@@ -9,4 +9,4 @@ dependencies:
 
 test:
   override:
-    - docker run platzi-devops test
+    - docker run platzi-devops npm test
