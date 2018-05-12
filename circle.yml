@@ -5,7 +5,7 @@ machine:
 
 dependencies:
   override:
-    - docker build -t platzi-devops
+    - docker build -t platzi-devops .
 
 test:
   override:
