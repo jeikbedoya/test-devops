@@ -1,0 +1,12 @@
+machine:
+  services:
+    - docker
+
+
+dependencies:
+  override:
+    - docker build -t platzi-devops
+
+test:
+  override:
+    - docker run platzi-devops test
